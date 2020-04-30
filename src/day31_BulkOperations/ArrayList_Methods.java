@@ -1,6 +1,5 @@
 package day31_BulkOperations;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -67,6 +66,12 @@ public class ArrayList_Methods {
       //  list3 = reversedList3;
 
         System.out.println(list3);
+
+        System.out.println(list3.size()); //  size: 4
+
+        list3.clear();  // removes everything, size : 0
+        boolean r4 = list3.isEmpty();
+        System.out.println(r4);
 
 
     }
