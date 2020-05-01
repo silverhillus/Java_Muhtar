@@ -52,6 +52,27 @@ public class CollectionsMethod {
         int secondMin = Collections.min(list2);
         System.out.println(secondMin);
 
+        System.out.println("========================================");
+        ArrayList<Integer> list3 = new ArrayList<>();
+                list3.addAll(Arrays.asList(1,2,3,4,5));  //{1,2,3,4,5}
+        //                                                  0       4
+        System.out.println(list3); //{1,2,3,4,5}
+
+        Collections.swap(list3, 0, 4 );    // {5,2,3,4,1}
+
+        System.out.println(list3);
+
+        System.out.println("==========================================================");
+        ArrayList<String> names = new ArrayList<>();
+        names.addAll(Arrays.asList("Omer", "Omer", "Mary", "Sha", "Fatih", "Omer"));  // Irina
+
+           /*
+            names.set(0, "Irina");
+            names.set(1, "Irina");
+            names.set(5, "Irina");
+            */
+        Collections.replaceAll(names, "Omer", "Irina" );
+        System.out.println(names);
 
 
     }
