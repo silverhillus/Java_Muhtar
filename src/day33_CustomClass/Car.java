@@ -7,6 +7,22 @@ public class Car {
     int year;
     String color;
 
+    public void start(){
+        System.out.println(Brand+" is started");
+    }
+
+    public void drive(){
+        System.out.println("Driving "+Brand+" "+model);
+    }
+
+    public void getCarInfo(){
+        System.out.println(year+" "+Brand+" " +model+" "+color);
+
+    }
+
+    // year +
+
+
 
 
     public static void main(String[] args) {
