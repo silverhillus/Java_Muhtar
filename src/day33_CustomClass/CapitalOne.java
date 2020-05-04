@@ -24,7 +24,7 @@ public class CapitalOne {
 
         Anna.checkingBalance();
 
-        System.out.println("=================================");
+        System.out.println("==================================================");
 
         System.out.println( Anna );
 
