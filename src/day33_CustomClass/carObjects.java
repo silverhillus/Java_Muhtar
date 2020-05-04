@@ -64,11 +64,15 @@ public class carObjects {
         cars[1].getCarInfo();
         cars[2].getCarInfo();
 
+
+
         /*
             create 5 car objects
             put them in an array of cars
             use for loop to get each car info
-            use for each loop to get each carinfo
+            use for each loop to get each car
+            info
+
          */
 
 
